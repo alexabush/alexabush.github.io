@@ -1903,7 +1903,11 @@ h6 {
   line-height: 1.5;
   margin: 0 0 2em 0;
   text-transform: uppercase;
-  letter-spacing: 0.35em;
+  letter-spacing: 0.15em;
+}
+
+footer h2 {
+  margin: 0em;
 }
 
 h2 a,
@@ -2043,6 +2047,7 @@ header p {
   text-decoration: none;
   border-bottom: none;
   position: relative;
+  padding: 20px;
 }
 
 .icon:before {
@@ -2052,6 +2057,7 @@ header p {
   font-style: normal;
   font-weight: normal;
   text-transform: none !important;
+  font-size: 64px;
 }
 
 .icon > .label {
