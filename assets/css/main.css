@@ -3071,11 +3071,6 @@ body.is-touch .tiles article .content {
   z-index: 10002;
 }
 
-.inner {
-  display: flex;
-  flex-direction: row-reverse;
-}
-
 #menu > .inner {
   -moz-transition: opacity 0.45s ease;
   -webkit-transition: opacity 0.45s ease;
@@ -3284,13 +3279,21 @@ ul > li {
   font-size: 24px;
 }
 
-
 /* About */
 
 #about {
+  display: flex;
   padding: 30px;
 }
 
+#photo-container {
+  padding: 30px;
+}
+
+#photo-container img {
+  border-radius: 500px;
+  border: 10px solid #f7f7f7;
+}
 
 /* Projects */
 
