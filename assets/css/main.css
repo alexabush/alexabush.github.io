@@ -2135,18 +2135,6 @@ ul.alt li:first-child {
   padding-top: 0;
 }
 
-ul.icons {
-  cursor: default;
-  list-style: none;
-  padding-left: 0;
-  margin: -1em 0 2em -1em;
-}
-
-ul.icons li {
-  display: inline-block;
-  padding: 1em 0 0 1em;
-}
-
 ul.actions {
   cursor: default;
   list-style: none;
@@ -2797,7 +2785,7 @@ button:disabled,
   transition: transform 0.5s ease, opacity 0.5s ease;
   position: relative;
   width: calc(33.33333% - 2.5em);
-  margin: 2.5em 0 0 2.5em;
+  margin: 1.25em 0 0 1.25em;
 }
 
 .tiles article > .image {
@@ -3005,7 +2993,7 @@ body.is-touch .tiles article .content {
 
   .tiles article {
     width: calc(50% - 2.5em);
-    margin: 2.5em 0 0 2.5em;
+    /* margin: 2.5em 0 0 2.5em; */
   }
 }
 
@@ -3016,7 +3004,7 @@ body.is-touch .tiles article .content {
 
   .tiles article {
     width: calc(50% - 1.25em);
-    margin: 1.25em 0 0 1.25em;
+    /* margin: 1.25em 0 0 1.25em; */
   }
 
   .tiles article:hover > .image {
@@ -3264,7 +3252,7 @@ nav {
   padding: 10px 0;
 }
 
-ul {
+nav ul {
   width: 80%;
   list-style-type: none;
   padding: 0;
@@ -3273,7 +3261,7 @@ ul {
   justify-content: space-around;
 }
 
-ul > li {
+nav ul > li {
   padding: 0;
   display: inline;
   font-size: 24px;
@@ -3311,9 +3299,7 @@ ul > li {
 /* Footer */
 
 #footer {
-  /* padding: 5em 0 6em 0; */
-  /* background-color: #f6f6f6; */
-  padding-bottom: 4rem;
+  padding: 20px;
 }
 
 #footer > .inner {
@@ -3448,6 +3434,19 @@ ul > li {
   #footer > .inner .copyright li:first-child {
     margin-top: 0;
   }
+}
+
+/* Icons */
+
+ul.icons {
+  cursor: default;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+ul.icons li {
 }
 
 /* Wrapper */
