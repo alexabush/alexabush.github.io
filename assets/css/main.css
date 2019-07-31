@@ -1945,6 +1945,11 @@ h6 {
   font-size: 0.8em;
 }
 
+h2.section-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
 @media screen and (max-width: 980px) {
   h1 br,
   h2 br,
@@ -3298,7 +3303,6 @@ nav ul > li {
   width: 100%;
   height: auto;
   border-radius: 500px;
-  /* border: 10px solid #f7f7f7; */
 }
 
 /* Projects */
@@ -3455,16 +3459,27 @@ nav ul > li {
 
 /* Icons */
 
+#photo-container ul.icons {
+  padding: 10px 0 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 ul.icons {
   cursor: default;
   list-style: none;
-  padding: 20px 0;
   display: flex;
   flex-direction: row;
+  padding-left: 0;
 }
 
 ul.icons li {
   padding: 0;
+}
+
+.icon {
+  font-size: 17px;
 }
 
 /* Wrapper */
